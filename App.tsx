@@ -12,7 +12,7 @@ export default function App() {
   if (!fontsLoaded) { return <></> }
   return (
     <NativeBaseProvider theme={THEME}>
-      <StatusBar style='light'/>
+      <StatusBar style='light'/> 
       <Box flex={1} bg={'gray.700'}>
 
         <Home />
